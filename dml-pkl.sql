@@ -42,20 +42,31 @@ INSERT INTO OUTCOME VALUES(1,'WON',1,10,1);
 
 
 --12. Insert into game
-
+INSERT INTO GAME VALUES(1,DATE'25-05-2020',1,2,1,1,1,2,1,1);
 
 --13. Update player table
+UPDATE PLAYER SET NAME = 'KOHLI' WHERE NAME = 'DHONI';
+
 
 --14. Update player table
+UPDATE PLAYER SET ID = 4 WHERE ID = 1;
 
 --15. Update player table
+UPDATE PLAYER SET SID = 1 WHERE NAME = 2;
+
 
 --16. Update player table
+UPDATE PLAYER SET TID = 3 WHERE TID = 1;
+
 
 --17. Delete from extra_type
+DELETE FROM EXTRA_TYPE;
 
 --18. Delete from referee
+DELETE FROM REFEREE;
 
 --19. Delete from player
+DELETE FROM PLAYER;
 
 --20. Delete from outcome
+DELETE FROM OUTCOME;
